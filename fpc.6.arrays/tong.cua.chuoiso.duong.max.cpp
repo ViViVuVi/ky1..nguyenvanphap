@@ -40,7 +40,12 @@ int main(){
 			if(dem==n){
 				printf("toan bo cac gia tri trong mang deu la so duong.\ntong cua cac gia tri trong mang la: %d\n",tong);
 			}else{
-				printf("chuoi so duong co tong lon nhat la: %d",tong_duong_max);
+					if(tong<tong_duong_max){
+						printf("chuoi so duong co tong lon nhat la: %d",tong_duong_max);
+					}else{
+						printf("chuoi so duong co tong lon nhat la: %d",tong);
+					}
+				
 			}
 		
 	}
